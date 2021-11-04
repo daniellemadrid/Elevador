@@ -2,7 +2,7 @@ package aula4;
 
 public class ImprimirString {
 
-    public static void main(String[] args) {
+    public void Imprimir () {
         String str = "dani";
         int number = 4;
 

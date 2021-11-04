@@ -1,3 +1,5 @@
+package testesAula4;
+
 import aula4.Repeticao;
 
 public class RepeticaoTeste {
