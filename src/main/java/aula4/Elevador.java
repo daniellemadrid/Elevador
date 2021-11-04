@@ -1,5 +1,6 @@
-public class Elevador {
+package aula4;
 
+public class Elevador {
     int terreo = 0;
     int totalDeAndares = 15;
     int capacidadeElevador = 80;//kg
@@ -18,7 +19,7 @@ public class Elevador {
         return pessoa;
     }
 
-    public void Entra() {
+    public void Entrar() {
         if (pessoa < pessoasPresentes) {
             System.out.println("Há espaço, pode entrar");
         } else {
@@ -26,7 +27,7 @@ public class Elevador {
         }
     }
 
-    public void sai() {
+    public void sair() {
         if (pessoasPresentes > 1) {
             System.err.println("Você terá que sair");
         } else {
@@ -34,7 +35,7 @@ public class Elevador {
         }
     }
 
-    public void sobe() {
+    public void subir() {
 
         if (andarAtual == totalDeAndares) {
             System.err.println("Não é possível subir, você está no último andar");
@@ -44,12 +45,9 @@ public class Elevador {
     }
 
 
-    public void desce() {
+    public void descer() {
         if (andarAtual == terreo) {
             System.err.println("não é possível descer, vc está no térreo");
         }
     }
 }
-
-
-
