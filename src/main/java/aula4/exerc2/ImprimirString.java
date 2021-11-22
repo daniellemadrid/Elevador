@@ -1,8 +1,7 @@
-package aula4;
+package aula4.exerc2;
 
 public class ImprimirString {
-
-    public void Imprimir () {
+    public void Imprimir() {
         String str = "dani";
         int number = 4;
 

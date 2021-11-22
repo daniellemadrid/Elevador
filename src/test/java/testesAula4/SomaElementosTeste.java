@@ -1,10 +1,12 @@
 package testesAula4;
 
-import aula4.SomaElementos;
+import aula4.exerc4.SomaElementos;
+import org.junit.Test;
 
 public class SomaElementosTeste {
 
-    public static void main(String[] args){
+    @Test
+   public void deveriaExibirTriplaDeElementos(){
         int numero = 5;
         int[] arranjo = {0,1,2,5,5,5,3,4,5,77,5,8,};
 

@@ -1,7 +1,12 @@
-package aula3;
+package testesAula3;
 
-public class Main {
-    public static void main(String[] args) {
+import aula3.AgendaTelefonica;
+import org.junit.Test;
+
+public class AgendaTelefonicaTeste {
+
+    @Test
+    public void deveriaExibirOsDadosDaAgenda () {
 
         AgendaTelefonica agenda = new AgendaTelefonica();
 
@@ -20,4 +25,3 @@ public class Main {
         System.out.println(numero);
     }
 }
-

@@ -1,6 +1,5 @@
 package aula1;
 
-import java.security.Security;
 
 
 public class Arranjos {
